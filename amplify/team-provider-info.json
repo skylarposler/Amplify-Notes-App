@@ -1,0 +1,23 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-notesapp-staging-41441-authRole",
+      "UnauthRoleArn": "arn:aws:iam::939017408496:role/amplify-notesapp-staging-41441-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::939017408496:role/amplify-notesapp-staging-41441-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-notesapp-staging-41441-deployment",
+      "UnauthRoleName": "amplify-notesapp-staging-41441-unauthRole",
+      "StackName": "amplify-notesapp-staging-41441",
+      "StackId": "arn:aws:cloudformation:us-west-2:939017408496:stack/amplify-notesapp-staging-41441/f02f9bd0-3021-11ee-b7ac-028a013248a9",
+      "AmplifyAppId": "d5tq3gr80s4xd"
+    },
+    "categories": {
+      "auth": {
+        "NotesApp": {}
+      },
+      "storage": {
+        "s3notesappimgs": {}
+      }
+    }
+  }
+}

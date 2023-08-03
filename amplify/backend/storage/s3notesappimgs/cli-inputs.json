@@ -1,0 +1,10 @@
+{
+  "resourceName": "s3notesappimgs",
+  "bucketName": "notesapp-imgs",
+  "policyUUID": "b25ee869",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE"
+  ]
+}
