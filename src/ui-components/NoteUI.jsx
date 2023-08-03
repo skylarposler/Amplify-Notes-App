@@ -14,7 +14,7 @@ import {
 import { schema } from "../models/schema";
 import { Flex, Icon, Text, View } from "@aws-amplify/ui-react";
 export default function NoteUI(props) {
-  const { notes, overrides, ...rest } = props;
+  const { notes, editButton, overrides, ...rest } = props;
   const vectorThreeOneFourSevenTwoSevenFourSevenOnClick =
     useDataStoreDeleteAction({ id: notes?.id, model: Notes, schema: schema });
   return (

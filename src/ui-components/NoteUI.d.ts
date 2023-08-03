@@ -23,6 +23,7 @@ export declare type NoteUIOverridesProps = {
 } & EscapeHatchProps;
 export declare type NoteUIProps = React.PropsWithChildren<Partial<FlexProps> & {
     notes?: Notes;
+    editButton?: React.ReactNode;
 } & {
     overrides?: NoteUIOverridesProps | undefined | null;
 }>;
